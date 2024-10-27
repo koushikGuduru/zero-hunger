@@ -1,0 +1,8 @@
+<!-- donor/templates/donor/donate.html -->
+
+<form method="post">
+    {% csrf_token %}
+    <label for="item">Item:</label>
+    <input type="text" id="item" name="item"><br><br>
+    <button type="submit">Donate</button>
+</form>
